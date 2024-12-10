@@ -52,8 +52,14 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 85%;
   transition: ease-in-out 0.5s;
+  /* border-radius: 5px; */
+}
+img .blog_image {
+  max-width: 85%;
+  transition: ease-in-out 0.5s;
+  border-radius: 25px;
 }
 
 a,
@@ -7128,7 +7134,7 @@ hr {
   margin-top: -20px;
 }
 .blog_image {
-  border-radius: 25px;
+  /* border-radius: 25px; */
 }
 
 .flex-col {
