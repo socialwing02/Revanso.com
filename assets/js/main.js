@@ -153,28 +153,96 @@
   });
 })(jQuery);
 
-const form = document.querySelector("#footer-contact-form");
-const footerEmail = document.querySelector(".footer-contact-email");
+// const form = document.querySelector("#footer-contact-form");
+// const footerEmail = document.querySelector(".footer-contact-email");
 
-form.addEventListener("submit", handleSubmit);
-footerEmail.addEventListener("click", handleEmailClick);
+// form.addEventListener("submit", handleSubmit);
+// footerEmail.addEventListener("click", handleEmailClick);
 
-function handleEmailClick() {
-  const email = "info@revanso.com";
-  const subject = "Contact Inquiry";
-  const body = "Hello, I would like to know more about...";
+// function handleEmailClick() {
+//   const email = "info@revanso.com";
+//   const subject = "Contact Inquiry";
+//   const body = "Hello, I would like to know more about...";
 
-  const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
-    email
-  )}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+//   const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
+//     email
+//   )}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-  window.open(gmailLink);
+//   window.open(gmailLink);
+// }
+
+// function handleSubmit(e) {
+//   e.preventDefault();
+
+//   const fd = new FormData(e.target);
+
+//   const data = Object.fromEntries(fd.entries());
+// }
+
+const dots = document.querySelectorAll(".dot");
+const testimonalItems = document.querySelectorAll(".testimonal-item");
+
+console.log(testimonalItems);
+
+let counter = 0;
+let interval;
+
+function initSlider() {
+  attachDotClickListeners();
+  startAutoSlide();
 }
 
-function handleSubmit(e) {
-  e.preventDefault();
-
-  const fd = new FormData(e.target);
-
-  const data = Object.fromEntries(fd.entries());
+function attachDotClickListeners() {
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => handleDotClick(index));
+  });
 }
+
+function handleDotClick(index) {
+  if (index === counter) return;
+
+  stopAutoSlide();
+
+  if (index > counter) {
+    playAnimation(counter, index, "next1", "next2");
+  } else {
+    playAnimation(counter, index, "prev1", "prev2");
+  }
+
+  counter = index;
+  updateActiveDot(index);
+}
+
+function playAnimation(fromIndex, toIndex, exitAnimation, enterAnimation) {
+  testimonalItems[
+    fromIndex
+  ].style.animation = `${exitAnimation} 0.5s ease-in forwards`;
+  testimonalItems[
+    toIndex
+  ].style.animation = `${enterAnimation} 0.5s ease-in forwards`;
+}
+
+function updateActiveDot(index) {
+  dots.forEach((dot) => dot.classList.remove("active"));
+  dots[index].classList.add("active");
+}
+
+function slideNext() {
+  const nextIndex = (counter + 1) % testimonalItems.length;
+  playAnimation(counter, nextIndex, "next1", "next2");
+  counter = nextIndex;
+  updateActiveDot(nextIndex);
+}
+
+function startAutoSlide() {
+  interval = setInterval(slideNext, 2000);
+}
+
+function stopAutoSlide() {
+  if (interval) {
+    clearInterval(interval);
+    interval = null;
+  }
+}
+
+initSlider();

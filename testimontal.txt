@@ -1,0 +1,611 @@
+  <div class="testimonial">
+      <div class="container">
+        <div class="testimonial-wrapper">
+          <div class="large-quote">
+            <img src="assets/images/quote/quote-1.png" alt="quote" />
+          </div>
+          <div class="large-text">
+            <img src="assets/images/testimonial/text-img.png" alt="Text" />
+          </div>
+          <div class="row">
+            <div
+              class="col-lg-12 wow fadeIn"
+              data-wow-duration=".6s"
+              data-wow-delay=".1s"
+            >
+              <div class="testimonial-inner">
+                <!-- Section Title Start -->
+                <div class="section-title-center section-head">
+                  <span class="subtitle">Testimonials</span>
+                  <h2 class="title">What People Say</h2>
+                </div>
+                <!-- Section Title End  -->
+
+                <div class="swiper testimonialone">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <!-- == Start Testimonial Item == -->
+                      <div class="testimonial-single">
+                        <div class="testimonial-single-quote">
+                          <img
+                            src="assets/images/quote/quote-2.png"
+                            alt="Quote"
+                          />
+                        </div>
+                        <div class="testimonial-single-content">
+                          <p class="client-text">
+                            I am very glad that I had a chance to study with
+                            RevanSoft services. They have given me a strong
+                            foundation in SAP courses and made me so confident
+                            in my skills. I am very happy that I have been
+                            placed in a top MNC. Thanks to RevanSoft.
+                          </p>
+                        </div>
+                      </div>
+                      <!--== End Testimonial Item ==-->
+                    </div>
+                    <div class="swiper-slide">
+                      <!--== Start Testimonial Item ==-->
+                      <div class="testimonial-single">
+                        <div class="testimonial-single-quote">
+                          <img
+                            src="assets/images/quote/quote-2.png"
+                            alt="Quote"
+                          />
+                        </div>
+                        <div class="testimonial-single-content">
+                          <p class="client-text">
+                            6. I am very happy with the teaching and caring of
+                            the faculties of RevanSoft services. I joined here
+                            for my SAP learning and the knowledge I got here was
+                            very helpful in my professional life. I am very
+                            thankful for the skillful and friendly team.
+                          </p>
+                        </div>
+                      </div>
+                      <!--== End Testimonial Item ==-->
+                    </div>
+                    <div class="swiper-slide">
+                      <!--== Start Testimonial Item ==-->
+                      <div class="testimonial-single">
+                        <div class="testimonial-single-quote">
+                          <img
+                            src="assets/images/quote/quote-2.png"
+                            alt="Quote"
+                          />
+                        </div>
+                        <div class="testimonial-single-content">
+                          <p class="client-text">
+                            I am grateful to RevanSoft as they helped me to get
+                            great skills on Oracle. The course is
+                            well-structured and the tutors are very supportive.
+                            I am pleased and feel great that I have improved my
+                            employability with an industry popular language.
+                          </p>
+                        </div>
+                      </div>
+                      <!--== End Testimonial Item ==-->
+                    </div>
+                    <div class="swiper-slide">
+                      <!--== Start Testimonial Item ==-->
+                      <div class="testimonial-single">
+                        <div class="testimonial-single-quote">
+                          <img
+                            src="assets/images/quote/quote-2.png"
+                            alt="Quote"
+                          />
+                        </div>
+                        <div class="testimonial-single-content">
+                          <p class="client-text">
+                            I registered in RevanSoft to learn .Net training and
+                            I am very amazed at the expertise of the institute
+                            in offering industry-leading IT courses. The
+                            guidance and the real-time classes they provided
+                            were so helpful for me. I have got my certification
+                            which highlights my resume.
+                          </p>
+                        </div>
+                      </div>
+                      <!--== End Testimonial Item ==-->
+                    </div>
+                    <div class="swiper-slide">
+                      <!--== Start Testimonial Item ==-->
+                      <div class="testimonial-single">
+                        <div class="testimonial-single-quote">
+                          <img
+                            src="assets/images/quote/quote-2.png"
+                            alt="Quote"
+                          />
+                        </div>
+                        <div class="testimonial-single-content">
+                          <p class="client-text">
+                            We engaged with RevanSoft for software development
+                            for our company. We really appreciate their wide
+                            knowledge of the field. We are impressed with their
+                            high standards of software development and
+                            completely satisfied with the output.
+                          </p>
+                        </div>
+                      </div>
+                      <!--== End Testimonial Item ==-->
+                    </div>
+                    <div class="swiper-slide">
+                      <!--== Start Testimonial Item ==-->
+                      <div class="testimonial-single">
+                        <div class="testimonial-single-quote">
+                          <img
+                            src="assets/images/quote/quote-2.png"
+                            alt="Quote"
+                          />
+                        </div>
+                        <div class="testimonial-single-content">
+                          <p class="client-text">
+                            will surely say that this is one of the best
+                            institutes for learning SAP. Here I had a great
+                            learning experience and the entire team was very
+                            supportive. My special thanks to the SAP mentor
+                            team.
+                          </p>
+                        </div>
+                      </div>
+                      <!--== End 	Testimonial Item ==-->
+                    </div>
+                  </div>
+
+                  <!--== Add Swiper navigation Buttons ==-->
+                  <div class="swiper-arrow">
+                    <div class="swiper-btn swiper-btn-prev">
+                      <img
+                        src="assets/images/testimonial/arrow-1.png"
+                        alt="Arrow"
+                        class="arrow-1"
+                      />
+                      <img
+                        src="assets/images/testimonial/arrow-2.png"
+                        alt="Arrow"
+                        class="arrow-2"
+                      />
+                    </div>
+                    <div class="swiper-btn swiper-btn-next">
+                      <img
+                        src="assets/images/testimonial/arrow-1.png"
+                        alt="Arrow"
+                        class="arrow-1"
+                      />
+                      <img
+                        src="assets/images/testimonial/arrow-2.png"
+                        alt="Arrow"
+                        class="arrow-2"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    breadcrumb==================================================
+
+
+
+      <div class="section breadcrumb-section">
+        <span class="shape shape-one layer" data-speed="1">
+            <img src="assets/images/slider/shape-2.png" alt="Shape">
+        </span>
+        <span class="shape shape-two layer" data-speed="2">
+            <img src="assets/images/slider/shape-5.png" alt="Shape">
+        </span>
+        <span class="shape shape-three wow pulse" data-wow-duration="1s" data-wow-delay=".1s">
+            <img src="assets/images/slider/shape-7.png" alt="Shape">
+        </span>
+        <span class="shape shape-four wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+            <img src="assets/images/slider/shape-9.png" alt="Shape">
+        </span>
+        <span class="shape shape-five wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
+            <img src="assets/images/slider/shape-10.png" alt="Shape">
+        </span>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 align-items-center text-center">
+                    <!-- Breadcrumb Wrapper Start -->
+                    <div class="breadcrumb-wrapper">
+                        <h1 class="title">Blog</h1>
+                        <p class="text mb-0">RevanSoft Services Private Limited is a forerunner in offering leading and advanced professional courses. </p>
+                    </div>
+                    <!-- Breadcrumb Wrapper End -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    cards ========================
+
+       <div class="single-team">
+              <div class="team-thumb">
+                <a class="image" href="sap.html"
+                  ><img src="assets/images/about/2.png" alt="Team"
+                /></a>
+              </div>
+            </div>
+            <!-- Single Team Wrapper End -->
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30 team-wrapper wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay=".1s"
+          >
+            <!-- Single Team Wrapper Start -->
+            <div class="single-team">
+              <div class="team-thumb">
+                <a class="image" href="sap.html"
+                  ><img src="assets/images/about/3.png" alt="Team"
+                /></a>
+              </div>
+            </div>
+            <!-- Single Team Wrapper End -->
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30 team-wrapper wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay=".1s"
+          >
+            <!-- Single Team Wrapper Start -->
+            <div class="single-team">
+              <div class="team-thumb">
+                <a class="image" href="sap.html"
+                  ><img src="assets/images/about/4.png" alt="Team"
+                /></a>
+              </div>
+            </div>
+            <!-- Single Team Wrapper End -->
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30 team-wrapper wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay=".1s"
+          >
+            <!-- Single Team Wrapper Start -->
+            <div class="single-team">
+              <div class="team-thumb">
+                <a class="image" href="sap.html"
+                  ><img src="assets/images/about/5.png" alt="Team"
+                /></a>
+              </div>
+            </div>
+            <!-- Single Team Wrapper End -->
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30 team-wrapper wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay=".1s"
+          >
+            <!-- Single Team Wrapper Start -->
+            <div class="single-team">
+              <div class="team-thumb">
+                <a class="image" href="sap.html"
+                  ><img src="assets/images/about/6.png" alt="Team"
+                /></a>
+              </div>
+            </div>
+            <!-- Single Team Wrapper End -->
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30 team-wrapper wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay=".1s"
+          >
+            <!-- Single Team Wrapper Start -->
+            <div class="single-team">
+              <div class="team-thumb">
+                <a class="image" href="sap.html"
+                  ><img src="assets/images/about/7.png" alt="Team"
+                /></a>
+              </div>
+            </div>
+            <!-- Single Team Wrapper End -->
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30 team-wrapper wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay=".1s"
+          >
+            <!-- Single Team Wrapper Start -->
+            <div class="single-team">
+              <div class="team-thumb">
+                <a class="image" href="sap.html"
+                  ><img src="assets/images/about/8.png" alt="Team"
+                /></a>
+              </div>
+            </div>
+            <!-- Single Team Wrapper End -->
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30 team-wrapper wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay=".1s"
+          >
+            <!-- Single Team Wrapper Start -->
+            <div class="single-team">
+              <div class="team-thumb">
+                <a class="image" href="sap.html"
+                  ><img src="assets/images/about/9.png" alt="Team"
+                /></a>
+              </div>
+            </div>
+            <!-- Single Team Wrapper End -->
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30 team-wrapper wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay=".1s"
+          >
+            <!-- Single Team Wrapper Start -->
+            <div class="single-team">
+              <div class="team-thumb">
+                <a class="image" href="sap.html"
+                  ><img src="assets/images/about/10.png" alt="Team"
+                /></a>
+              </div>
+            </div>
+            <!-- Single Team Wrapper End -->
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30 team-wrapper wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay=".1s"
+          >
+            <!-- Single Team Wrapper Start -->
+            <div class="single-team">
+              <div class="team-thumb">
+                <a class="image" href="sap.html"
+                  ><img src="assets/images/about/11.png" alt="Team"
+                /></a>
+              </div>
+            </div>
+            <!-- Single Team Wrapper End -->
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30 team-wrapper wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay=".1s"
+          >
+            <!-- Single Team Wrapper Start -->
+            <div class="single-team">
+              <div class="team-thumb">
+                <a class="image" href="sap.html"
+                  ><img src="assets/images/about/12.png" alt="Team"
+                /></a>
+              </div>
+            </div>
+            <!-- Single Team Wrapper End -->
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30 team-wrapper wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay=".1s"
+          >
+            <!-- Single Team Wrapper Start -->
+            <div class="single-team">
+              <div class="team-thumb">
+                <a class="image" href="sap.html"
+                  ><img src="assets/images/about/13.png" alt="Team"
+                /></a>
+              </div>
+            </div>
+            <!-- Single Team Wrapper End -->
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30 team-wrapper wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay=".1s"
+          >
+            <!-- Single Team Wrapper Start -->
+            <div class="single-team">
+              <div class="team-thumb">
+                <a class="image" href="sap.html"
+                  ><img src="assets/images/about/14.png" alt="Team"
+                /></a>
+              </div>
+            </div>
+            <!-- Single Team Wrapper End -->
+          </div>
+
+
+
+          form===========================================
+
+
+            <div class="footer-widget">
+              <h5 class="footer-widget-title">SMS Enquiry</h5>
+
+              <!-- <form
+
+
+                class="subscribe-form"
+                action="send-sms.php"
+                method="post"
+                name="form"
+                id="form"
+                onSubmit="return va();"
+              >
+                <table
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="font"
+                  style="font-size: 14px; color: #000"
+                >
+                  <tr>
+                    <td
+                      width="85"
+                      height="40"
+                      align="left"
+                      valign="middle"
+                      class="text2"
+                      style="color: #000"
+                    >
+                      <strong style="color: #000"
+                        >Name<span class="color">*</span></strong
+                      >
+                    </td>
+                    <td width="151" height="30" align="left" valign="middle">
+                      <input
+                        name="name"
+                        type="text"
+                        class="box"
+                        id="name"
+                        size="20"
+                        maxlength="15"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="40" align="left" valign="middle" class="text2">
+                      <strong style="color: #000"
+                        >Email<span class="color">*</span></strong
+                      >
+                    </td>
+                    <td height="30" align="left" valign="middle">
+                      <input
+                        name="email"
+                        type="text"
+                        class="box"
+                        id="email"
+                        size="20"
+                        maxlength="30"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="40" align="left" valign="middle" class="text2">
+                      <strong style="color: #000"
+                        >Mobile<span class="color">*</span></strong
+                      >
+                    </td>
+                    <td height="40" align="left" valign="middle">
+                      <input
+                        name="mobile"
+                        type="text"
+                        class="box"
+                        id="mobile"
+                        size="20"
+                        maxlength="10"
+                      />
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td height="40" align="left" valign="middle" class="text2">
+                      <strong
+                        ><font color="#000"
+                          >Description<span class="color">*</span></font
+                        ></strong
+                      >
+                    </td>
+                    <td height="40" align="left" valign="middle">
+                      <select
+                        name="select1"
+                        id="select1"
+                        style="width: 165px; height: 27px"
+                      >
+                        <option value="">Select Interested</option>
+                        <option value="Outsourcing">Outsourcing</option>
+                        <option value="Training ">Training</option>
+                        <option value="Development">Development</option>
+                        <option value="ALL">ALL</option>
+                      </select>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td align="left" valign="middle" class="text2">
+                      <strong style="color: #000"
+                        >Code<span class="color"></span
+                      ></strong>
+                    </td>
+                    <td height="0" align="left" valign="middle">
+                      <input
+                        type="text"
+                        name="captcha"
+                        size="5"
+                        maxlength="8"
+                        class="box"
+                      />&nbsp;&nbsp;<img
+                        style="vertical-align: bottom"
+                        class="box"
+                        src="captcha.php"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" align="center" valign="top">
+                      <small style="color: #000"
+                        >(Enter the code shown here)</small
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" align="center" valign="top">
+                      <input
+                        name="submit"
+                        type="submit"
+                        class="btn btn-primary pull-right"
+                        value="SEND"
+                      />
+                    </td>
+                  </tr>
+                </table>
+              </form> -->
+
+              <form class="footer-form" id="footer-contact-form">
+                <div class="flex-col">
+                  <label for="">Name</label>
+                  <input type="text" placeholder="Enter your name" required />
+                </div>
+                <div class="flex-col">
+                  <label for="">Email</label>
+                  <input type="email" placeholder="Enter your email" required />
+                </div>
+                <div class="flex-col">
+                  <label for="">Phone</label>
+                  <input
+                    type="number"
+                    placeholder="Enter your number"
+                    maxlength="10"
+                    required
+                  />
+                </div>
+                <!-- <div class="flex-col">
+                  <select name="" id="">
+                    <option disabled selected style="color: re">
+                      Choose you option
+                    </option>
+                    <option value="">aa</option>
+                    <option value="">bb</option>
+                    <option value="">cc</option>
+                    <option value="">dd</option>
+                  </select>
+                </div> -->
+                <div class="flex-col">
+                  <label for="">Summary</label>
+                  <textarea placeholder="Enter your Summary"></textarea>
+                </div>
+
+                <div class="footer-submit_button">
+                  <button type="submit">Submit</button>
+                </div>
+              </form>
+            </div>
