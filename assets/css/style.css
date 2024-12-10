@@ -7385,8 +7385,9 @@ input:user-invalid {
 
 .card h4 {
   color: black;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 .card img {
@@ -7406,4 +7407,24 @@ input:user-invalid {
 .team-wrapper {
   display: grid;
   place-items: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+  }
+}
+
+.testimonal-container {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.testimonal-container.active {
+  opacity: 1;
 }

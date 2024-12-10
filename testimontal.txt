@@ -609,3 +609,56 @@
                 </div>
               </form>
             </div>
+
+
+
+
+
+
+
+
+
+
+            form ============================================
+
+
+
+
+
+             <div class="col-lg-6 mb-30">
+            <form
+              id="contact-form"
+              class="comment-form-inner contact-form wow fadeIn"
+              data-wow-duration="1.5s"
+              data-wow-delay=".1s"
+              action="https://ethemestudio.com/demo/egens/assets/php/contact.php"
+            >
+              <h2 class="title">Write A Message</h2>
+              <div class="row">
+                <div class="col-12 mb-3">
+                  <input placeholder="Your name" name="name" />
+                </div>
+                <div class="col-12 mb-3">
+                  <input type="email" placeholder="Your email" name="email" />
+                </div>
+                <div class="col-12 mb-3">
+                  <input placeholder="Your phone" name="phone" />
+                </div>
+                <div class="col-12 mb-3">
+                  <textarea
+                    name="message"
+                    placeholder="Write your comment here"
+                  ></textarea>
+                </div>
+                <div class="col-12 text-left">
+                  <button class="btn btn-style-one" type="submit">
+                    <span>Submit Now</span>
+                  </button>
+                </div>
+                <div class="col-12">
+                  <!--== Message Notification ==-->
+                  <div class="form-message mt-4"></div>
+                </div>
+              </div>
+            </form>
+          </div>
