@@ -7481,3 +7481,17 @@ input:user-invalid {
     }
   }
 }
+
+.qr_image {
+  width: min(500px, 90vw) !important;
+}
+
+.contact-qr-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 950px) {
+    flex-direction: column;
+  }
+}
