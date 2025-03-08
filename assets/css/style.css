@@ -52,7 +52,8 @@ body {
 }
 
 img {
-  max-width: 85%;
+  max-width: 100%;
+  display: block;
   transition: ease-in-out 0.5s;
   border-radius: 5px;
 }
@@ -6694,7 +6695,7 @@ hr {
   background-color: #e9edf4;
   /* margin-top: 70px; */
   position: relative;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6764,8 +6765,16 @@ hr {
 }
 
 .footer-widget {
-  position: relative;
   z-index: 1;
+  .logo{
+    position:absolute;
+    top:30px;
+    left: 80px;
+
+    @media (max-width:700px) {
+      left: 20px;
+    }
+  }
 }
 .footer-widget.negative-margin {
   margin-top: -30px;
@@ -6823,11 +6832,11 @@ hr {
   }
 }
 .footer-widget-title {
-  font-size: 21px;
+  font-size: 1.6rem;
   color: #1c1c1c;
   font-weight: 600;
   font-family: "Jost", sans-serif;
-  margin-bottom: 30px;
+  text-transform: capitalize;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer-widget-title {
@@ -7260,6 +7269,7 @@ input:user-invalid {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 1rem;
   & img {
     width: 100px;
@@ -7357,16 +7367,11 @@ input:user-invalid {
 
 .card {
   width: min(300px, calc(90vw - 2rem));
-  height: 380px;
-  padding-inline: 1rem;
-  padding-block: 1.5rem;
-  border-radius: 12px;
+  border-radius: .25rem;
   display: grid;
-  gap: 1rem;
+  gap: .5rem;
   transition: transform 0.5s ease;
   color: black;
-
-  display: grid;
   place-items: center;
 
   &:hover {
@@ -7386,6 +7391,10 @@ input:user-invalid {
   }
 }
 
+.card-content{
+  padding: .9rem;
+}
+
 .card p {
   height: 80px; /* Set a fixed height for the paragraph */
   overflow: hidden; /* Hide the overflowing content */
@@ -7396,9 +7405,10 @@ input:user-invalid {
 
 .card h4 {
   color: black;
-  font-weight: 500;
+  font-weight: bolder;
   font-size: 1.2rem;
   text-transform: uppercase;
+  
 }
 
 .card img {
@@ -7406,7 +7416,7 @@ input:user-invalid {
   width: 100%;
   aspect-ratio: 1.5;
   cursor: pointer;
-  border-radius: 12px;
+  border-radius: .25rem;
   object-fit: cover;
 }
 
@@ -7459,13 +7469,11 @@ input:user-invalid {
 
 .footer-contact {
   display: grid;
-  padding-block: 0.5rem;
-  margin-top: 3rem;
+  padding-block: 2rem;
   gap: 0.5rem;
 
   & h4 {
-    padding-bottom: 1rem;
-    color: black;
+    color: black !important;
   }
 
   & p {
@@ -7493,5 +7501,24 @@ input:user-invalid {
 
   @media (max-width: 950px) {
     flex-direction: column;
+  }
+}
+
+.footer-links{
+ padding-block: .3rem;
+
+  .footer-link-title{
+    color:black;
+    font-size: 1.5rem;
+    padding-block-end:.6rem;
+  }
+
+  .footer-link-list{
+    a{
+      color: rgb(90, 87, 87);
+    }
+    display: flex;
+    flex-direction:column;
+    gap:.4rem;
   }
 }
