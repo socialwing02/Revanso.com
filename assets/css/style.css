@@ -6766,12 +6766,12 @@ hr {
 
 .footer-widget {
   z-index: 1;
-  .logo{
-    position:absolute;
-    top:30px;
+  .logo {
+    position: absolute;
+    top: 30px;
     left: 80px;
 
-    @media (max-width:700px) {
+    @media (max-width: 700px) {
       left: 20px;
     }
   }
@@ -7242,6 +7242,8 @@ input:user-invalid {
 .testimonal-container {
   min-height: 60vh;
   padding-block: 3rem;
+  font-family: "Jost", sans-serif;
+  color: #54545f;
 }
 .testimonal {
   max-width: 900px;
@@ -7281,6 +7283,9 @@ input:user-invalid {
   }
   & p {
     width: min(90vw, calc(85% - 5rem));
+    font-size: 1.1rem;
+    color: #54545f;
+    font-family: "Roboto", sans-serif;
   }
 }
 
@@ -7367,9 +7372,9 @@ input:user-invalid {
 
 .card {
   width: min(300px, calc(90vw - 2rem));
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   display: grid;
-  gap: .5rem;
+  gap: 0.5rem;
   transition: transform 0.5s ease;
   color: black;
   place-items: center;
@@ -7391,8 +7396,8 @@ input:user-invalid {
   }
 }
 
-.card-content{
-  padding: .9rem;
+.card-content {
+  padding: 0.9rem;
 }
 
 .card p {
@@ -7408,7 +7413,6 @@ input:user-invalid {
   font-weight: bolder;
   font-size: 1.2rem;
   text-transform: uppercase;
-  
 }
 
 .card img {
@@ -7416,7 +7420,7 @@ input:user-invalid {
   width: 100%;
   aspect-ratio: 1.5;
   cursor: pointer;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   object-fit: cover;
 }
 
@@ -7504,21 +7508,24 @@ input:user-invalid {
   }
 }
 
-.footer-links{
- padding-block: .3rem;
+.footer-links {
+  padding-block: 0.3rem;
 
-  .footer-link-title{
-    color:black;
+  .footer-link-title {
+    color: black;
     font-size: 1.5rem;
-    padding-block-end:.6rem;
+    padding-block-end: 0.6rem;
   }
 
-  .footer-link-list{
-    a{
+  .footer-link-list {
+    a {
       color: rgb(90, 87, 87);
     }
     display: flex;
-    flex-direction:column;
-    gap:.4rem;
+    flex-direction: column;
+    gap: 0.4rem;
   }
+}
+.footer-wrapper h4,h5{
+font-family: "Jost", sans-serif;
 }
